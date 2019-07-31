@@ -1,0 +1,121 @@
+RASHID@DESKTOP-8CG15TC MINGW64 ~
+$ pwd
+/c/Users/RASHID
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~
+$ cd Desktop/
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop
+$ mkdir rasid
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop
+$ cd rasid/
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ cat > pets.text
+cat
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ echo dog >> pets.text
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ echo hamster >> pets.text
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ touch commands.text
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ echo cat > commands.text
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ echo ls >> commands.text
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ echo pwd >> commands.text
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ cat commands.text pets.text | sort | uniq
+cat
+dog
+hamster
+ls
+pwd
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ cat commands.text pets.text | sort | uniq > lovelyCommands.text
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ cat lovelyCommands.text
+cat
+dog
+hamster
+ls
+pwd
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ mkdir rasid1
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid
+$ cd rasid1
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid/rasid1
+$ touch greetings.text
+
+$ for i in {1..5}
+> do echo Hello > greetings.text
+> done
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid/rasid1
+$ cat greetings.text
+Hello
+Hello
+Hello
+Hello
+Hello
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid/rasid1
+$ for i in {1..5}
+> do touch $i.text
+> done
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid/rasid1
+$ ls
+1.text  2.text  3.text  4.text  5.text  greetings.text
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid/rasid1
+$ for i in {1..5}
+> do cp greetings.text $i.text
+> done
+
+RASHID@DESKTOP-8CG15TC MINGW64 ~/Desktop/rasid/rasid1
+$ cat 1.text 2.text 3.text 4.text 5.text
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+
+
+
+
+

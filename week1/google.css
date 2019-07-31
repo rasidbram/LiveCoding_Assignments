@@ -1,0 +1,39 @@
+.main{
+    margin-top: 70px;
+  }
+  .button1 {
+    padding: 14px 250px;
+    background-color: white;
+    border: 1.4px solid lightgrey;
+    align: center;
+  }
+  
+  .button2 {
+    border: 1px solid lightgrey;
+    padding: 7px 44px;
+    background-color: white;
+    border-radius: 9px;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .button3 {
+    border: 1px solid lightgrey;
+    padding: 7px 44px;
+    background-color: white;
+    border-radius: 9px;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .buttons {
+    padding-top: 3px;
+    align: center;
+  }
+  
+  .more, .footer, .h1 {
+    align: center;
+  }
+  .container{
+    margin-top:-45px;
+  }
